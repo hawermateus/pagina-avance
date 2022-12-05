@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.container-video {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px black, 0 15px 50px;
+    position: relative;
+	color: white;
+}
+
+.video {
+    display: flex;
+    width: 1000%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.video__section {
+    width: 30%;
+}
+

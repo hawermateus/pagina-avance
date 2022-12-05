@@ -1,0 +1,89 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+}
+
+body {
+    width: 100%;
+	height: 1200px;
+    background-image: url(../imgs/uefa_champions_league_starball_02.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.form-register {
+	width: 400px;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+}
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: #24303c;
+}
+
+
+.form-register {
+	width: 450px;
+	background-color: rgba(0,0,0,0.4);
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+	box-shadow: 7px 13px 37px white;
+}
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.controls {
+	width: 100%;
+	background: white;
+	padding: 10px;
+    border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+
+}
+
+.form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+}
+
+.form-register a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.form-register .button {
+	width: 100%;
+    background: linear-gradient(blue, violet);
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+h2 {
+	text-align: center;
+}

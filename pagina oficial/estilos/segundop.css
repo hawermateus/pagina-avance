@@ -1,0 +1,300 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+}
+
+body {
+    width: 100%;
+	height: 1200px;
+    background-image: url(../imgs/uefa_champions_league_starball_02.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+#navegador 
+{
+	width: 120px;
+	height: 50px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+nav ul
+{
+	float: left;
+}
+
+ul li a
+{
+	margin-left:70px;
+	margin-right: 20px;
+	padding: 20px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+    float: right;
+    text-decoration: none;
+}
+
+
+nav ul li a::before
+{
+	display: block;
+	content: '';
+	width: 0;
+	background: linear-gradient(rgb(5, 19, 218), white);
+	height: 5px;
+	top: 0;
+	position: relative;
+	transition: 0.5s;
+}
+
+ul li a:hover::before
+{
+	width: 100%;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 400px;
+    padding-top: 5px;
+}
+
+nav{
+    background-image: linear-gradient(blue, violet);
+    width: 100%;
+    height: 85px;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+}
+
+
+
+.img3{
+    width: 300px;
+    height: 80px;
+}
+
+.container-slider {
+    width: 95%;
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px black, 0 15px 50px;
+    position: relative;
+	color: white;
+    margin-top: 80px;
+}
+
+.slider {
+    display: flex;
+    width: 800%;
+    height: 800px;
+    margin-left: -100%;
+}
+
+.slider__section {
+    width: 30%;
+}
+
+.slider__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover {
+    background: aqua;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+
+
+/*DIVISION NOTICIAS*/
+.noticias {
+    width: 100%;
+    height: 2500px;
+    position: absolute;
+}
+
+.noticia2{
+   height: 700px;
+   width: 100%;
+   float: left;
+   position: relative;
+   margin-top: 10%;
+}
+.noticia3{
+    height: 700px;
+    width: 100%;
+    float: left;
+    position: relative;
+ }
+
+ .noticia4{
+    height: 700px;
+    width: 100%;
+    float: left;
+    position: relative;
+
+ }
+
+ /*NOTICIA 1*/
+
+
+
+ /*NOTICIA 2*/
+.noticia2 .texto2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+    
+}
+
+.noticia2 .imagen2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;    
+}
+
+.texto2 p{
+    padding-top: 100px;
+    padding-left:30px ;
+    padding-right:30px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+
+}
+.imagen2 img{
+    margin-top: 90px;
+    margin-left: 90px;
+    height: 500px;
+    width: 800px;
+
+}
+
+/*NOTICIA 2*/
+
+.noticia3 .imagen3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+}
+
+.noticia3 .texto3{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+}
+
+.imagen3 img{
+    padding-top: 90px;
+    padding-left: 40px;
+    width: 800px;
+}
+
+.texto3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 170px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+}
+
+
+
+/*NOTICIA 3*/
+
+.noticia4 .texto4{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+}
+
+.noticia4 .imagen4{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+    margin-top: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px black, 0 3px 50px;
+	color: white;
+}
+
+
+.imagen4 img{
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 500px;
+}
+
+.texto4 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 170px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+}
